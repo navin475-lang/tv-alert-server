@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 
 app = Flask(__name__)
 
-EMAIL_ADDRESS = "yourgmail@gmail.com"
-EMAIL_PASSWORD = "your_app_password"
+EMAIL_ADDRESS = "kalpvininsurance@gmail.com"
+EMAIL_PASSWORD = "onux qafp agzz sflk"
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
